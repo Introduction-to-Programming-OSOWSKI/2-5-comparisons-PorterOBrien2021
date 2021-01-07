@@ -1,9 +1,9 @@
-def greaterThen(x, y):
+def greaterThan(x, y):
     if x > y:
         return True
     else:
         return False
-def lessThen(x, y):
+def lessThan(x, y):
     if x < y:
         return True
     else:
@@ -24,3 +24,12 @@ def lessOrEqual(x, y):
     else:
         return False
 
+print(greaterThan(100, 10))
+
+print(lessThan(9, 10))
+
+print(equalTo(2, 2))
+
+print(greaterOrEqual(100, 100))
+
+print(lessOrEqual(50, 100))
